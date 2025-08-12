@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(206, 145, 189);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    width: 45rem;
+    margin: 5rem auto;
+    background-color: lightgray;
+    box-shadow: 4px 5px 10px rgba(47, 31, 31, 0.3);
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#Emojis-Container {
+    font-size: 4rem;
+    text-align: center;
+    width: 80px;
+}
+
+#guess-input {
+    height: 35px;
+    width: 280px;
+    border: 2px solid rgb(206, 145, 189);
+    border-radius: 40px;
+    padding: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+    width: 80px;
+    text-align: center;
+}
+
+#Score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    width: 80px;
+    text-align: center;
+}
+
+#Timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    width: 100px;
+    text-align: center;
+}
